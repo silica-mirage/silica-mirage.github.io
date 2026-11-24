@@ -17,10 +17,14 @@
 <div id="top" align="center">
 
 [![Project](https://img.shields.io/badge/Project-Website-pink?logo=googlechrome&logoColor=white)](https://silica-mirage.github.io/)
-[![Main Repo](https://img.shields.io/badge/GitHub-Codebase-black?logo=github&logoColor=white)](https://github.com/rtarun1/Silica)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.24249)
-[![Model](https://img.shields.io/badge/🤗%20Silica-Model-yellow)](https://huggingface.co/rtarun1/silica-v1-0)
-[![Dataset](https://img.shields.io/badge/🤗%20Mirage18k-Dataset-green)](https://huggingface.co/datasets/rtarun1/mirage18k/)
+[![Paper](https://img.shields.io/badge/IEEE_Xplore-Paper-00629B?logo=ieee&logoColor=white)](https://doi.org/10.1109/IROS61738.2026.11776824)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=white
+)](https://arxiv.org/abs/2607.24249)
+[![Model](https://img.shields.io/badge/🤗%20Silica-Model-yellow
+)](https://huggingface.co/rtarun1/silica-v1-0)
+[![Dataset](https://img.shields.io/badge/🤗%20Mirage18k-Dataset-green
+)](https://huggingface.co/datasets/rtarun1/mirage18k/)
+[![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-blue)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 </div>
 
@@ -39,13 +43,11 @@ SILICA leverages the priors of text-to-image diffusion models to jointly predict
 If you find our work useful in your research, please consider citing our paper:
 
 ```bibtex
-@misc{r2026silicarepurposingdiffusionpriors,
-      title={SILICA: Repurposing Diffusion Priors for Joint Glass Segmentation and Depth Estimation}, 
-      author={Tarun R and Anuj Verma and Laksh Nanwani and Sourav Garg and K. Madhava Krishna},
-      year={2026},
-      eprint={2607.24249},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2607.24249}
-}
+@inproceedings{r2026silica,
+  author    = {R, Tarun and Verma, Anuj and Nanwani, Laksh and Garg, Sourav and Krishna, K. Madhava},
+  booktitle = {2026 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  title     = {{SILICA}: Repurposing Diffusion Priors for Joint Glass Segmentation and Depth Estimation},
+  year      = {2026},
+  pages     = {5031--5038},
+  doi       = {10.1109/IROS61738.2026.11776824}}
 ```
